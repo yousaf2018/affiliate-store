@@ -13,17 +13,17 @@ const Footer = () => {
                 <div className="social">
                     <h4>Social</h4>
                     <div>
-                        <a href="http://google.com">
-                            Pinterest
+                        <a href="https://pin.it/7o4iPW4oF" target='_blank' rel='noreferrer'>
+                            <i class="fi fi-brands-pinterest"></i><p>Pinterest</p>
                         </a>
-                        <a href="http://google.com">
-                            Twitter
+                        <a href="https://www.instagram.com/thecleangirl_ae?utm_source=qr&igsh=dnNvOXhhcm9jeDBk" target='_blank' rel='noreferrer'>
+                            <i class="fi fi-brands-instagram"></i><p>Instagram</p>
                         </a>
-                        <a href="http://google.com">
-                            Threads
+                        <a href="https://x.com/thecleangirl_ae?t=23awBOwj64obfgftX_Eaxg&s=09" target='_blank' rel='noreferrer'>
+                            <i class="fi fi-brands-twitter-alt-circle"></i><p>Twitter</p>
                         </a>
-                        <a href="http://google.com">
-                            Instagram
+                        <a href="https://www.threads.net/@thecleangirl_ae" target='_blank' rel='noreferrer'>
+                            <i class="fi fi-brands-instagram"></i><p>Threads</p>
                         </a>
                     </div>
                 </div>

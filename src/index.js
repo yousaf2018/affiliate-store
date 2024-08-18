@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
+import "@flaticon/flaticon-uicons/css/all/all.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

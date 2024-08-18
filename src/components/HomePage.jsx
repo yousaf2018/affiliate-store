@@ -20,38 +20,38 @@ const HomePage = () => {
                 <div className="featuredWrap">
                     <div className="product">
                         <img src={getImageUrl('featured/featTop.jpg')} alt="Featured Product" />
-                        <h3>Featured Product Name</h3>
-                        <p>$4.00</p>
-                        <Link to="/shop">
+                        <h3>Y2K Backless Tank Top</h3>
+                        <p>$3.99</p>
+                        <a href='https://s.click.aliexpress.com/e/_EImy6BP' target='_blank' rel='noreferrer'>
                             <button>Buy</button>
-                        </Link>
+                        </a>
                     </div>
                     <div className="line"></div>
                     <div className="product">
                         <img src={getImageUrl('featured/featShoe.jpg')} alt="Featured Product" />
-                        <h3>Featured Product Name</h3>
-                        <p>$4.00</p>
-                        <Link to="/shop">
+                        <h3>Crystal Butterfly Detail High heels</h3>
+                        <p>$8.00</p>
+                        <a href='https://s.click.aliexpress.com/e/_DlTiqOJ' target='_blank' rel='noreferrer'>
                             <button>Buy</button>
-                        </Link>
+                        </a>
                     </div>
                     <div className="line"></div>
                     <div className="product">
                         <img src={getImageUrl('featured/featSkirt.jpg')} alt="Featured Product" />
-                        <h3>Featured Product Name</h3>
-                        <p>$4.00</p>
-                        <Link to="/shop">
+                        <h3>V Waist Pleated Skirt</h3>
+                        <p>$12.98</p>
+                        <a href='https://s.click.aliexpress.com/e/_DnsOxcP' target='_blank' rel='noreferrer'>
                             <button>Buy</button>
-                        </Link>
+                        </a>
                     </div>
                     <div className="line"></div>
                     <div className="product">
                         <img src={getImageUrl('featured/featHair.jpg')} alt="Featured Product" />
-                        <h3>Featured Product Name</h3>
-                        <p>$4.00</p>
-                        <Link to="/shop">
+                        <h3>Cute Bear Hair Rings</h3>
+                        <p>$0.89</p>
+                        <a href='https://s.click.aliexpress.com/e/_EH87mXB' target='_blank' rel='noreferrer'>
                             <button>Buy</button>
-                        </Link>
+                        </a>
                     </div>
                 </div>
             </section>

@@ -15,7 +15,7 @@ const categories = [
     { name: 'Eye glasses', route: '/category/eye glasses', image: 'shopPage/shopEyeglass.png' },
     { name: 'Hair accessories', route: '/category/hair accessories', image: 'shopPage/shopHair.png' },
     { name: 'Beauty gadgets', route: '/category/beauty gadgets', image: 'shopPage/shopGadgets.png' },
-    { name: 'Random free', route: '/category/random free', image: 'shopPage/shopfree.png' },
+    { name: 'Random free', route: '/category/random free', image: 'homePage/logo.png' },
 
 ];
 
