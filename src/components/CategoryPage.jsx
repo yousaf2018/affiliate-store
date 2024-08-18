@@ -39,8 +39,8 @@ const CategoryPage = () => {
         return <p className='loading'>Loading products...</p>;
     }
 
-    if (error) {
-        return <p className='category error'>Failed to load products. Please check your network connection.</p>;
+    if (products.length > 0 && error) {
+        return <p className='categoryError error'>Failed to load products. Please check your network connection.</p>;
     }
 
     const capitalizeFirstLetter = (string) => {
