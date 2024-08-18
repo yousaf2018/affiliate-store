@@ -28,7 +28,6 @@ const CategoryPage = () => {
             } catch (error) {
                 console.error('Error fetching products:', error);
                 setError(true);
-
             } finally {
                 setLoading(false);
             }
@@ -40,9 +39,8 @@ const CategoryPage = () => {
         return <p className='loading'>Loading products...</p>;
     }
 
-    if (products.length === 0 && error) {
-        console.log(error)
-        return <p className='categoryError error'>Failed to load products. Please check your network connection.</p>;
+    if (error) {
+        return <p className='category error'>Failed to load products. Please check your network connection.</p>;
     }
 
     const capitalizeFirstLetter = (string) => {
@@ -52,7 +50,7 @@ const CategoryPage = () => {
     return (
         <div className='category-page'>
             <h1>{capitalizeFirstLetter(category)}</h1>
-            {products.length > 0 &&
+            {products.length > 0 ? (
                 <div className='product-list'>
                     {products.map(product => (
                         <div key={product.id} className='product-card'>
@@ -72,11 +70,10 @@ const CategoryPage = () => {
 
                     ))}
                 </div>
+            ) : (
+                <p>Items will be added soon!</p>
+            )
             }
-            {products.length === 0 && !error && <p>Items will be added soon!</p>}
-            {products.length === 0 && error && <p>{error}</p>}
-
-
         </div>
     );
 };
